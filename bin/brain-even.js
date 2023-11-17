@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import greeting from '../greeting.js';
-import { getRandomIntof100 as random } from '../getRandomIntof100.js';
+import getRandomIntof100 from '../getRandomIntof100.js';
 import game from '../src/index.js';
 
 const getRightAnswer = (number) => {
@@ -11,6 +11,6 @@ const getRightAnswer = (number) => {
 };
 
 const name = greeting();
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
+console.log('What is the result of the expression?');
 
-game(random, getRightAnswer, name);
+game(getRandomIntof100, getRightAnswer, name);

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import greeting from '../greeting.js';
-import { getRandomIntof100 } from '../getRandomIntof100.js';
+import getRandomIntof100 from '../getRandomIntof100.js';
 import game from '../src/index.js';
 
 const random = () => {
