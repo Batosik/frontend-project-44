@@ -8,7 +8,7 @@ const random = () => {
     const nextElement = arr[i] + diff;
     arr.push(nextElement);
   }
-  arr[Math.floor(2 + Math.random() * 9)] = '..';
+  arr[Math.floor(2 + Math.random() * 8)] = '..';
   return arr.join(' ');
 };
 
