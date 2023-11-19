@@ -11,7 +11,7 @@ const game = (random, getRightAnswer, name) => {
     }
     console.log('Correct!');
     if (i === 3) {
-      console.log(`Congratulations, ${name}`);
+      console.log(`Congratulations, ${name}!`);
     }
   }
 };
