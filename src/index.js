@@ -6,7 +6,7 @@ const game = (random, getRightAnswer, name) => {
     console.log(`Question: ${quest}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer !== getRightAnswer(quest)) {
-      console.log(`${answer} is wrong answer ;(. Correct answer was ${getRightAnswer(quest)}.\nLet's try again, ${name}`);
+      console.log(`${answer} is wrong answer ;(. Correct answer was ${getRightAnswer(quest)}.\nLet's try again, ${name}!`);
       break;
     }
     console.log('Correct!');
